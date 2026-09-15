@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Buku</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+        }
+        figure {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        figure img {
+            width: 150px;
+            height: 220px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+        }
+        figcaption {
+            font-style: italic;
+            color: #666;
+            margin-top: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+        }
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tfoot td {
+            font-weight: bold;
+            background-color: #ecf0f1;
+        }
+        .text-right {
+            text-align: right;
+        }
+        .text-center {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Katalog Buku Perpustakaan</h1>
+
+    <figure>
+        <img src="https://via.placeholder.com/150x220.png?text=Sampul+Buku" alt="Ilustrasi Sampul Buku">
+        <figcaption>Ilustrasi Sampul Buku Unggulan</figcaption>
+    </figure>
+
+    <table>
+        <caption>Daftar Koleksi Buku Terbaru</caption>
+        <thead>
+            <tr>
+                <th scope="col" class="text-center">No</th>
+                <th scope="col">Judul Buku</th>
+                <th scope="col">Pengarang</th>
+                <th scope="col" class="text-center">Tahun</th>
+                <th scope="col" class="text-right">Harga</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-center">1</td>
+                <td>Bumi Manusia</td>
+                <td>Pramoedya Ananta Toer</td>
+                <td class="text-center">1980</td>
+                <td class="text-right">Rp 85.000</td>
+            </tr>
+            <tr>
+                <td class="text-center">2</td>
+                <td>Laskar Pelangi</td>
+                <td>Andrea Hirata</td>
+                <td class="text-center">2005</td>
+                <td class="text-right">Rp 90.000</td>
+            </tr>
+            <tr>
+                <td class="text-center">3</td>
+                <td>Filosofi Teras</td>
+                <td>Henry Manampiring</td>
+                <td class="text-center">2019</td>
+                <td class="text-right">Rp 120.000</td>
+            </tr>
+            <tr>
+                <td class="text-center">4</td>
+                <td>Pulang</td>
+                <td>Leila S. Chudori</td>
+                <td class="text-center">2012</td>
+                <td class="text-right">Rp 95.000</td>
+            </tr>
+            <tr>
+                <td class="text-center">5</td>
+                <td>Negeri 5 Menara</td>
+                <td>A. Fuadi</td>
+                <td class="text-center">2009</td>
+                <td class="text-right">Rp 88.000</td>
+            </tr>
+            <tr>
+                <td class="text-center">6</td>
+                <td>Perahu Kertas</td>
+                <td>Dee Lestari</td>
+                <td class="text-center">2009</td>
+                <td class="text-right">Rp 75.000</td>
+            </tr>
+            <tr>
+                <td class="text-center">7</td>
+                <td>Cantik Itu Luka</td>
+                <td>Eka Kurniawan</td>
+                <td class="text-center">2002</td>
+                <td class="text-right">Rp 115.000</td>
+            </tr>
+            <tr>
+                <td class="text-center">8</td>
+                <td>Garis Waktu</td>
+                <td>Fiersa Besari</td>
+                <td class="text-center">2016</td>
+                <td class="text-right">Rp 65.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="text-right">Rata-Rata Harga Buku</td>
+                <td class="text-right">Rp 91.625</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
